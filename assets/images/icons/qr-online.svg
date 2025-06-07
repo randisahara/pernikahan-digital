@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- QR Code Frame -->
+  <rect x="40" y="40" width="120" height="120" fill="none" stroke="#F63854" stroke-width="4"/>
+  <!-- QR Code Pattern -->
+  <rect x="60" y="60" width="20" height="20" fill="#F63854"/>
+  <rect x="120" y="60" width="20" height="20" fill="#F63854"/>
+  <rect x="60" y="120" width="20" height="20" fill="#F63854"/>
+  <rect x="90" y="90" width="20" height="20" fill="#F63854"/>
+  <!-- WiFi Signal -->
+  <path d="M30 100 Q100 20 170 100" fill="none" stroke="#F63854" stroke-width="4" opacity="0.3"/>
+  <path d="M50 100 Q100 40 150 100" fill="none" stroke="#F63854" stroke-width="4" opacity="0.5"/>
+  <path d="M70 100 Q100 60 130 100" fill="none" stroke="#F63854" stroke-width="4" opacity="0.7"/>
+</svg>
