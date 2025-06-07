@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pernikahan Digital - Our Wedding Link</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💝</text></svg>">
+    
+=======
+</head>
+=======
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold text-[#F63854]">
+                    <span class="flex items-center">
+                        <i class="fas fa-heart mr-2"></i>
+                        Our Wedding
+                    </span>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="nav-link text-gray-600 hover:text-gray-900">Preset/Desain</a>
+                    <a href="#" class="nav-link text-gray-600 hover:text-gray-900">Portofolio</a>
+                    <div class="relative group">
+                        <a href="#" class="nav-link text-gray-600 hover:text-gray-900">Lainnya</a>
+                        <div class="absolute hidden group-hover:block w-48 bg-white shadow-lg rounded-lg mt-2">
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digital Guestbook</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Instagram Filter</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">FAQ</a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link text-gray-600 hover:text-gray-900">Daftar</a>
+                    <a href="#" class="btn-primary px-6 py-2 rounded-full">Masuk</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="hidden mobile-menu md:hidden mt-4">
+                <a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Preset/Desain</a>
+                <a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Portofolio</a>
+                <a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Lainnya</a>
+                <a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Daftar</a>
+                <a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Masuk</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section pt-24 pb-12 px-6">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-center md:text-left hero-text">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">No #1 Platform</h1>
+                    <h2 class="text-3xl md:text-5xl font-bold mb-6">Pernikahan Digital</h2>
+                    <p class="text-xl mb-4">Wedding Planner(soon) - Invitation - Digital Guestbook</p>
+                    <p class="text-lg mb-4">One stop solution your wedding buddy!</p>
+                    <p class="text-xl mb-8">Solusi pernikahanmu jadi lebih modern, efisien dan terukur</p>
+                    <a href="/register" class="btn-primary px-8 py-3 rounded-full text-lg font-semibold inline-block hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+                        Buat Sekarang Gratis!
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="w-full h-96 bg-gradient-to-br from-pink-100 to-white rounded-lg shadow-xl flex items-center justify-center">
+                        <div class="text-center">
+                            <i class="fas fa-heart text-6xl text-[#F63854] mb-4"></i>
+                            <h3 class="text-2xl text-gray-800 font-semibold">Digital Wedding Invitation</h3>
+                            <p class="text-gray-600 mt-2">Modern, Efficient, and Measurable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="stat-card text-center">
+                    <div class="stat-number" data-value="43946">0</div>
+                    <div class="text-gray-600">Undangan Aktif</div>
+                </div>
+                <div class="stat-card text-center">
+                    <div class="stat-number" data-value="9031">0</div>
+                    <div class="text-gray-600">Hadiah diberikan</div>
+                </div>
+                <div class="stat-card text-center">
+                    <div class="stat-number" data-value="798750">0</div>
+                    <div class="text-gray-600">Doa & Ucapan</div>
+                </div>
+                <div class="stat-card text-center">
+                    <div class="stat-number" data-value="715263">0</div>
+                    <div class="text-gray-600">Tamu Reservasi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Happy Couples Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">43,946 Pasangan berbahagia</h2>
+            <p class="text-xl mb-8">
+                Dari <strong>luar dan dalam negeri</strong> sudah membuat undangannya. giliran kamu untuk mencoba :)
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="/portofolio" class="btn-primary px-6 py-3 rounded-full">Lihat lebih banyak Portofolio</a>
+                <a href="/register" class="bg-white border-2 border-[#F63854] text-[#F63854] px-6 py-3 rounded-full hover:bg-[#F63854] hover:text-white transition-all">
+                    Buat Undanganmu Sekarang, Gratis!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How To Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Cara Membuat Undangan kamu</h2>
+            <p class="text-center text-xl mb-12">
+                Cara mudah membuat undangan, hanya butuh <strong>5 menit</strong> undangan kamu sudah bisa di sebarkan.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="assets/images/icons/cara1.svg" alt="Step 1" class="mx-auto">
+                    </div>
+                    <p>1. Registrasi untuk membuat akun undangan kamu <a href="/register" class="text-[#F63854]">di sini</a>.</p>
+                </div>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="assets/images/icons/cara3.svg" alt="Step 2" class="mx-auto">
+                    </div>
+                    <p>2. Isi Info Acara & Profile dan juga upload foto/gallery. <strong>Customize undangan kamu</strong>.</p>
+                </div>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="assets/images/icons/cara2.svg" alt="Step 3" class="mx-auto">
+                    </div>
+                    <p>3. Pilih Preset / Template. <a href="/design" class="text-[#F63854]">Lihat daftar template kita</a>.</p>
+                </div>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="assets/images/icons/cara4.svg" alt="Step 4" class="mx-auto">
+                    </div>
+                    <p>4. <strong>Aktifkan</strong>, dan undangan kamu siap untuk di sebarkan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preset Templates Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4">Preset Make Easy</h2>
+            <p class="text-center text-gray-600 mb-12">
+                <strong>66</strong> Presets tersedia. Dengan adanya preset kamu tinggal pilih design undangan sesuai dengan yang kamu mau!
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Preset Card 1 -->
+                <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="absolute top-2 left-2 bg-purple-700 text-white px-3 py-1 rounded-full text-sm">
+                        luxury
+                    </div>
+                    <img src="assets/images/templates/glass-wonder.svg" 
+                         alt="Glass Wonder" 
+                         class="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-300"
+                         loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="text-lg font-semibold">Glass Wonder</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Preset Card 2 -->
+                <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="absolute top-2 left-2 bg-purple-700 text-white px-3 py-1 rounded-full text-sm">
+                        luxury
+                    </div>
+                    <img src="assets/images/templates/joyful-garden.svg" 
+                         alt="Joyfull Garden" 
+                         class="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-300"
+                         loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="text-lg font-semibold">Joyfull Garden (Parallax)</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Preset Card 3 -->
+                <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="absolute top-2 left-2 bg-purple-700 text-white px-3 py-1 rounded-full text-sm">
+                        luxury
+                    </div>
+                    <img src="assets/images/templates/auto-scrolled.svg" 
+                         alt="Auto Scrolled Cinematic" 
+                         class="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-300"
+                         loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="text-lg font-semibold">Auto Scrolled Cinematic</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="/design" class="btn-primary px-8 py-3 rounded-full inline-block hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+                    Lihat lebih banyak preset
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Guestbook Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-4">Digital<br>Guestbook</h2>
+                    <p class="text-lg mb-4">Jangan mau dibohongi dengan harga yang mahal!</p>
+                    <p class="text-xl mb-6">
+                        disini cuma <span class="text-[#F63854] font-bold">650rb</span> dapat 
+                        <span class="font-bold">undangan luxury + digital guestbook!</span>
+                    </p>
+                    <p class="text-gray-600 mb-8">
+                        Bukan hanya untuk sebar undangan, kami hadir untuk memenuhi segala kebutuhan dengan 
+                        <span class="font-bold">harga yang terjangkau</span>
+                    </p>
+                    
+                    <!-- Guestbook Features -->
+                    <div class="space-y-4">
+                        <div class="feature-card p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center space-x-3">
+                                <div class="text-[#F63854]">
+                                    <i class="fas fa-qrcode text-xl"></i>
+                                </div>
+                                <span>Aplikasi penerima tamu</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center space-x-3">
+                                <div class="text-[#F63854]">
+                                    <i class="fas fa-tv text-xl"></i>
+                                </div>
+                                <span>Layar sapa</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center space-x-3">
+                                <div class="text-[#F63854]">
+                                    <i class="fas fa-utensils text-xl"></i>
+                                </div>
+                                <span>Food, Table, & Souvenir management</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center space-x-3">
+                                <div class="text-[#F63854]">
+                                    <i class="fas fa-camera text-xl"></i>
+                                </div>
+                                <span>Selfie checkin</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center space-x-3">
+                                <div class="text-[#F63854]">
+                                    <i class="fas fa-gift text-xl"></i>
+                                </div>
+                                <span>Pencatatan Hadiah</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center space-x-3">
+                                <div class="text-[#F63854]">
+                                    <i class="fas fa-print text-xl"></i>
+                                </div>
+                                <span>Cetak QR code fisik</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center space-x-3">
+                                <div class="text-[#F63854]">
+                                    <i class="fas fa-ticket-alt text-xl"></i>
+                                </div>
+                                <span>Tiket kedatangan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hidden md:block">
+                    <img src="assets/images/app-guest.svg" 
+                         alt="Digital Guestbook App" 
+                         class="w-full max-w-md mx-auto"
+                         loading="lazy">
+                    <p class="text-center text-gray-600 mt-6">
+                        Dengan <strong>aplikasi penerima tamu</strong> tidak ada lagi antrian untuk menerima tamu undangan, 
+                        <strong>tinggal scan QR code tamu</strong>, tamu langsung ter data dgn akurat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4">How<br>it works</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
+                <!-- Step 1 -->
+                <div class="text-center">
+                    <div class="mb-6">
+                        <img src="assets/images/icons/add-guest.svg" 
+                             alt="Add Guest" 
+                             class="w-48 h-48 object-contain mx-auto"
+                             loading="lazy">
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">1. Tambahkan tamu</h3>
+                    <p class="text-gray-600">
+                        Tambahkan tamu ke daftar tamu kamu, supaya kamu bisa membagikan link atau mendownload QR card
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center">
+                    <div class="mb-6">
+                        <img src="assets/images/icons/qr-online.svg" 
+                             alt="QR Online" 
+                             class="w-48 h-48 object-contain mx-auto"
+                             loading="lazy">
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">2. Dapatkan QRCODE secara online</h3>
+                    <p class="text-gray-600">
+                        Bagikan link dari daftar tamu kepada tamu kamu, dan tamu akan melakukan konfirmasi kehadiran via link yang di berikan agar mendapatkan QRCODE
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center">
+                    <div class="mb-6">
+                        <img src="assets/images/icons/qr-print.svg" 
+                             alt="QR Print" 
+                             class="w-48 h-48 object-contain mx-auto"
+                             loading="lazy">
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">3. Atau print QR card</h3>
+                    <p class="text-gray-600">
+                        Kamu juga bisa mendownload QR Card cetak untuk dibagikan langsung berbarengan dengan undangan cetak kamu
+                    </p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="text-center">
+                    <div class="mb-6">
+                        <img src="assets/images/icons/scan-checkin.svg" 
+                             alt="Scan Check-in" 
+                             class="w-48 h-48 object-contain mx-auto"
+                             loading="lazy">
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">4. Bawa QR card & scan saat checkin</h3>
+                    <p class="text-gray-600">
+                        Pada saat datang ke acara, harap bawa QR yang didapatkan untuk di scan saat masuk kedalam acara
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Filter Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Filter Instagram Sudah Tersedia</h2>
+            <p class="text-gray-600 mb-8">
+                Lebih interaktif dan berbagi moment indah para tamu undangan kalian!
+            </p>
+            <a href="/instagram_filter" class="btn-primary px-8 py-3 rounded-full inline-block hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+                Lihat lebih banyak Filter Instagram
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Fitur yang keren dan lengkap</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature Cards -->
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fas fa-clock text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Hitungan Mundur</h3>
+                    <p class="text-gray-600">Jangan sampai terlewatkan moment indah kamu, hitung mundur tanggal acara pernikahanmu.</p>
+                </div>
+                
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fas fa-paint-brush text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Design Modern dan Responsif</h3>
+                    <p class="text-gray-600">Say good bye untuk design jadul. biar undanganmu makin wow.</p>
+                </div>
+                
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fab fa-whatsapp text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Broadcast undangan via Whatsapp</h3>
+                    <p class="text-gray-600">Sebarkan langsung banyak dengan vitur Broadcast melalui whatsapp</p>
+                </div>
+
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fas fa-share-alt text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Support Native Share</h3>
+                    <p class="text-gray-600">Kamu bisa share undanganmu secara mudah dengan experience share apps.</p>
+                </div>
+
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fas fa-chart-line text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Smart Realtime Dashboard</h3>
+                    <p class="text-gray-600">Kamu bisa Mengedit dan melihat aktifitas undanganmu dengan realtime.</p>
+                </div>
+
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fas fa-bell text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Notification Ready</h3>
+                    <p class="text-gray-600">Kamu bisa mendapat informasi aktifitas undanganmu secara realtime.</p>
+                </div>
+
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fas fa-user-friends text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Bagikan dengan nama tamu</h3>
+                    <p class="text-gray-600">Bisa juga membuat share dengan nama Teman/Saudara/Keluarga agar lebih ekslusif.</p>
+                </div>
+
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fas fa-images text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Gallery Foto</h3>
+                    <p class="text-gray-600">Share moment indah kamu dengan pasanganmu dengan slideshow yang keren.</p>
+                </div>
+
+                <div class="feature-card p-6 bg-white rounded-lg shadow-md">
+                    <div class="text-[#F63854] mb-4">
+                        <i class="fas fa-map-marker-alt text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Navigasi Lokasi</h3>
+                    <p class="text-gray-600">All in one navigasi lengkap, agar para tamu tidak tersesat saat ke tempat kamu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+
+    <!-- Payment Methods Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h3 class="text-2xl font-bold mb-8 text-center">Metode Pembayaran</h3>
+            <div class="grid grid-cols-4 md:grid-cols-7 gap-4 justify-items-center items-center max-w-3xl mx-auto">
+                <i class="fab fa-cc-visa text-3xl text-gray-600"></i>
+                <i class="fab fa-cc-mastercard text-3xl text-gray-600"></i>
+                <span class="text-xl font-bold text-gray-600">Mandiri</span>
+                <span class="text-xl font-bold text-gray-600">BCA</span>
+                <span class="text-xl font-bold text-gray-600">BNI</span>
+                <span class="text-xl font-bold text-gray-600">Permata</span>
+                <span class="text-xl font-bold text-gray-600">BRI</span>
+                <span class="text-xl font-bold text-gray-600">GoPay</span>
+                <span class="text-xl font-bold text-gray-600">ATM</span>
+                <span class="text-xl font-bold text-gray-600">OVO</span>
+                <span class="text-xl font-bold text-gray-600">ShopeePay</span>
+                <span class="text-xl font-bold text-gray-600">DANA</span>
+                <span class="text-xl font-bold text-gray-600">LinkAja</span>
+                <span class="text-xl font-bold text-gray-600">Alfamart</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Lebih Dekat dengan Kami</h3>
+                    <div class="space-y-4">
+                        <a href="https://wa.me/6289666613131" class="flex items-center text-gray-600 hover:text-[#F63854] transition-colors">
+                            <img src="assets/images/icons/whatsapp.svg" alt="WhatsApp" class="w-6 h-6 mr-3">
+                            0896-6661-3131
+                        </a>
+                        <a href="https://www.instagram.com/ourwedding.link" class="flex items-center text-gray-600 hover:text-[#F63854] transition-colors">
+                            <img src="assets/images/icons/instagram.svg" alt="Instagram" class="w-6 h-6 mr-3">
+                            @ourwedding.link
+                        </a>
+                        <a href="mailto:info@our-wedding.link" class="flex items-center text-gray-600 hover:text-[#F63854] transition-colors">
+                            <i class="far fa-envelope w-6 h-6 mr-3 text-center"></i>
+                            info@our-wedding.link
+                        </a>
+                        <a href="https://www.facebook.com/ourwedding.link" class="flex items-center text-gray-600 hover:text-[#F63854] transition-colors">
+                            <i class="fab fa-facebook w-6 h-6 mr-3 text-center"></i>
+                            ourwedding.link
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">FAQ</h3>
+                    <div class="space-y-4">
+                        <a href="#" class="block text-gray-600 hover:text-[#F63854] transition-colors">Cara Membuat Undangan</a>
+                        <a href="#" class="block text-gray-600 hover:text-[#F63854] transition-colors">Ketentuan Layanan</a>
+                        <a href="#" class="block text-gray-600 hover:text-[#F63854] transition-colors">Kebijakan Privasi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 pt-8 text-center text-gray-600">
+                Copyright © 2025 PT AKIO KREASI INDONESIA. All Right Reserved
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Button -->
+    <div class="fixed bottom-4 right-4 z-50">
+        <button onclick="window.open('https://wa.me/6289666613131', '_blank')" class="bg-[#F63854] text-white p-4 rounded-full shadow-lg hover:bg-[#E62743] transition-colors flex items-center space-x-2">
+            <i class="fab fa-whatsapp text-xl"></i>
+            <span>Chat</span>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
